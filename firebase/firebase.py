@@ -4,10 +4,10 @@ import random
 
 # Use a service account
 cred = credentials.Certificate(
-    "fir-db-35866-firebase-adminsdk-esi8j-6ddcb229c7.json"
+    "ecoo-b352b-firebase-adminsdk-acuiv-26d5fc1bd7.json"
 )
 initialize_app(
-    cred, {"databaseURL": "https://fir-db-35866-default-rtdb.firebaseio.com"}
+    cred, {"databaseURL": "https://ecoo-b352b-default-rtdb.firebaseio.com"}
 )
 
 ####### LIGHTS ######
